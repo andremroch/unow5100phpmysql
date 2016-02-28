@@ -39,10 +39,10 @@ void setup() {
 void loop() {
  
   if (client.available()) {
-    char c = client.read();
+    char c = client.read();  //recebe os dados
     Serial.print(c);
     texto1 = c;
-    Serial.print(texto1);
+    Serial.print(texto1);  //como separo as variaveis
   }
  
   if (!client.connected()) {
