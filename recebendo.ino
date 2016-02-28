@@ -42,7 +42,8 @@ void loop() {
     char c = client.read();  //recebe os dados
     Serial.print(c);
     texto1 = c;
-    Serial.print(texto1);  //como separo as variaveis
+                            //                       texto1 informacao1, informacao2, informacao3;
+    Serial.print(texto1);  //como separo as variaveis     sss 1234567 12345 54321
   }
  
   if (!client.connected()) {
